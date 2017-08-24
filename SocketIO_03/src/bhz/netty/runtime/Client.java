@@ -112,7 +112,7 @@ public class Client {
 			}
 		}).start();
 		
-		System.out.println("断开连接,主线程结束..");
+		System.out.println("断开连接,主线程结束..确定是这样吗？");
 		
 	}
 	
