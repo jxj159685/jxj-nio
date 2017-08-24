@@ -81,6 +81,8 @@ public class Client {
 			request.setName("pro" + i);
 			request.setRequestMessage("数据信息" + i);
 			cf.channel().writeAndFlush(request);
+			
+			
 			TimeUnit.SECONDS.sleep(4);
 		}
 
